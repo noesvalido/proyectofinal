@@ -1,0 +1,21 @@
+body {
+  max-width: 100vw;
+  background-color: #874356; }
+
+.header {
+  background-color: #87a8a4; }
+  .header .nav1 {
+    color: #986d8e;
+    font-weight: bold;
+    font-size: 1.5rem; }
+  .header .navbar-brand {
+    font-size: 2rem; }
+
+.container__slider {
+  max-height: 90vh; }
+
+.img-mod {
+  max-height: 100%; }
+
+.footer {
+  background-color: #efe3d0; }

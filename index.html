@@ -7,15 +7,143 @@
     <script src="https://kit.fontawesome.com/93bb6009ab.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;400&family=Open+Sans:wght@700&family=Roboto+Slab&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     
-    <title></title>
+    <title>Proyecto Final</title>
 </head>
 <body>
-
-
-
+    <header class="header d-flex align-items-center py-0">
+        <div class="container container-nav">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-xl navbar-mod">
+                  <a class="navbar-brand" href="#">N<span class="nav1">1</span>xWare</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarsExample07XL">
+                    <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown07XL" data-bs-toggle="dropdown" aria-expanded="false">PORTAFOLIO</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown07XL">
+                          <li><a class="dropdown-item" href="pages/portafolio.html">CATEGORIA 1</a></li>
+                          <li><a class="dropdown-item" href="pages/portafolio.html">CATEGORIA 2</a></li>
+                          <li><a class="dropdown-item" href="pages/portafolio.html">CATEGORIA 3</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pages/sobre_mi.html">SOBRE MI</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pages/servicios.html">SERVICIOS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pages/contacto.html">CONTACTO</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <main>
+        <!-- Slider -->
+        <div class="container-fluid mb-2">
+            <div class="row">
+                <div class="col-12">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-aos="flip-left">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner container__slider">
+                            <div class="carousel-item active">
+                                <img src="https://via.placeholder.com/1080x1920" class="d-block img-fluid w-100 img-mod" alt="Destacado 1">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="https://via.placeholder.com/1080x1920" class="d-block img-fluid w-100" alt="Destacado 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://via.placeholder.com/1080x1920" class="d-block img-fluid w-100" alt="Destacado 3">
+                            </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <!-- fin slider -->
+        <!-- cards destacados -->
+        <div class="container-fluid">
+            <div class="row justify-content-center px-0 gap-2 mb-2">
+                <div class="col-12 col-md-3">
+                    <div class="card" data-aos="fade-right">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card" data-aos="fade-up">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card" data-aos="fade-left">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-mod container-fluid px-0">
+            <div class="row">
+              <div class="col-12">
+                <footer class="footer d-flex flex-column justify-content-center align-items-center ">
+                  <div class="footer__texto pt-2">
+                      <h2>Marca Desconocida</h2>
+                  </div>
+                  <div class="footer__rrss py-0">
+                      <i class="fa-brands fa-instagram"></i>
+                      <i class="fa-brands fa-whatsapp"></i>
+                      <i class="fa-brands fa-pinterest"></i>
+                  </div>
+                  <p class="py-2">Todos los derechos reservados. 2022</p>
+              </footer>
+              </div>
+            </div>
+          </div>
+    </footer>
+                    <!-- script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
