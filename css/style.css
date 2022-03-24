@@ -1,13 +1,16 @@
 body {
   max-width: 100vw;
-  background-color: #874356; }
+  background-color: #874356;
+  font-family: 'Montserrat', sans-serif; }
 
 .header {
-  background-color: #87a8a4; }
+  background-color: #87a8a4;
+  font-family: 'Bebas Neue';
+  font-size: 1.5rem; }
   .header .nav1 {
     color: #986d8e;
     font-weight: bold;
-    font-size: 1.5rem; }
+    font-size: 2.5rem; }
   .header .navbar-brand {
     font-size: 2rem; }
 
@@ -17,5 +20,32 @@ body {
 .img-mod {
   max-height: 100%; }
 
+.card {
+  border: 1px solid #87a8a4;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0; }
+  .card .btn {
+    background-color: #87a8a4;
+    border-color: #986d8e;
+    color: #efe3d0; }
+
+.container .titulo__principal {
+  color: #efe3d0;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif; }
+
+.nav-color {
+  color: #efe3d0; }
+
 .footer {
   background-color: #efe3d0; }
+  .footer h2 {
+    color: #87a8a4; }
+  .footer .footer__rrss {
+    color: #986d8e;
+    font-size: 1.5rem; }
+    .footer .footer__rrss i {
+      padding-left: 0.7rem; }
+  .footer p {
+    font-size: 0.8rem;
+    color: #87a8a4; }
