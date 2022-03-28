@@ -1,0 +1,53 @@
+/* index */
+.container__slider{
+    max-height: 90vh;
+}
+.img-mod{
+    max-height: 100%;
+}
+.card {
+    border: 1px solid rgb(135, 168, 164);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    .btn{
+        background-color: rgb(135, 168, 164);
+        border-color: rgb(152, 109, 142);
+        color: rgb(239, 227, 208);
+    }
+}
+/* portafolio */
+.container {
+    & .titulo__principal {
+        color: rgb(239, 227, 208);
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+        border-top: 1rem solid rgb(135, 168, 164);
+        border-bottom: 1rem solid rgb(135, 168, 164);
+        margin-top: 2rem;
+        display: block;
+        margin-bottom: 2rem;
+        border-radius: 1rem;
+    }
+}
+.nav-color {
+    color: rgb(239, 227, 208);
+    margin-bottom: 2rem;
+    &:hover {
+        color: rgb(152, 109, 142);
+        border-bottom: 1px solid rgba(239, 227, 208, 0.192);
+        border-left: 1px solid rgba(239, 227, 208, 0.192);
+        border-right: 1px solid rgba(239, 227, 208, 0.192);
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+}
+.galeria {
+    background-color: rgb(135, 168, 164);
+    padding-top: 1.5rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    & .galeria__img {
+        border: 0.5px solid rgb(152, 109, 142);
+        border-radius: 0.5rem;
+    }
+}
