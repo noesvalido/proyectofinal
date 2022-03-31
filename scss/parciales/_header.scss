@@ -1,12 +1,12 @@
 .header {
-    background-color: rgb(135, 168, 164);
+    background-color: $colorUno;
     font-family: 'Bebas Neue', cursive;
     font-size: 1.5rem;
-    border-bottom: 1px solid  rgb(152, 109, 142);
+    border-bottom: 1px solid  $colorDetalle;
     position: fixed;
     z-index: 10;
     .nav1{
-        color: rgb(152, 109, 142);
+        color: $colorDetalle;
         font-weight: bold;
         font-size: 2.5rem;
     }

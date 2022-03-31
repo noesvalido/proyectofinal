@@ -1,0 +1,13 @@
+$colorUno :rgb(135, 168, 164);
+$colorDetalle :rgb(152, 109, 142);
+$colorDos:rgb(239, 227, 208);
+/* mapas */
+$redes :(
+    color: rgb(152, 109, 142),
+    tFuente: 1.8rem,
+);
+/* mixin */
+@mixin size100($width, $height) {
+    width: $width;
+    height: $height;
+}

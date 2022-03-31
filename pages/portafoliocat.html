@@ -10,7 +10,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <meta name="description" content="Empresa dedicada a la mantencion y venta de hardware">
-    <meta name="keywords" content="hardware, computador, desarrollo web, perifericos, mantencion, chile, portafolio">
+    <meta name="keywords" content="hardware, computador, desarrollo web, perifericos, mantencion, chile, portafolio,trabajos">
     <title>n1xware - portafolio</title>
 </head>
 <body>
@@ -30,9 +30,9 @@
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown07XL" data-bs-toggle="dropdown" aria-expanded="false">PORTAFOLIO</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown07XL">
-                          <li><a class="dropdown-item" href="portafolio.html">CATEGORIA 1</a></li>
-                          <li><a class="dropdown-item" href="portafolio.html">CATEGORIA 2</a></li>
-                          <li><a class="dropdown-item" href="portafolio.html">CATEGORIA 3</a></li>
+                          <li><a class="dropdown-item" href="portafoliocat.html">CATEGORIA 1</a></li>
+                          <li><a class="dropdown-item" href="portafoliocat.html">CATEGORIA 2</a></li>
+                          <li><a class="dropdown-item" href="portafoliocat.html">CATEGORIA 3</a></li>
                         </ul>
                       </li>
                       <li class="nav-item">
@@ -51,44 +51,51 @@
         </div>
     </header>
     <main class="main">
-        <section class="portafolio">
-            <div class="cat__portafolio">
-                <div class="overlay">
-                    <a href="portafolioCategoria1.html">
-                        <h2>Categoria 1</h2>
-                    </a>
-                </div>
+        <!-- Galeria -->
+        <div class="container">
+            <div class="row text-center justify-content-center"> 
+              <h1 class="py-4 titulo__principal">PORTAFOLIO</h1>
+                <ul class="nav gap-3 justify-content-center px-0">
+                    <li class="nav-item ">
+                        <a class="nav-link nav-color px-2" aria-current="page" href="#">Categoria 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-color px-2" href="#">Categoria 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-color px-2" href="#">Categoria 3</a>
+                    </li>
+                </ul>
+                  <div class="row galeria">
+                    <div class="col-12 col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-right">
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(20).webp" class="w-100 galeria__img shadow-1-strong  mb-4"alt=""/>
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp" class="w-100 shadow-1-strong galeria__img  mb-4"alt=""/>
+                    </div>
+                    <div class="col-lg-4 mb-4 mb-lg-0" data-aos="fade-down">
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp" class="w-100 shadow-1-strong galeria__img  mb-4"alt=""/>
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" class="w-100 shadow-1-strong galeria__img  mb-4"alt=""/>
+                    </div>
+                    <div class="col-lg-4 mb-4 mb-lg-0" data-aos="fade-left">
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp" class="w-100 shadow-1-strong galeria__img  mb-4" alt=""/>
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp" class="w-100 shadow-1-strong galeria__img  mb-4"alt=""/>
+                    </div>
+                  </div>
             </div>
-            <div class="cat__portafolio" id="cat__portafolio2">
-                <div class="overlay">
-                    <a href="#">
-                        <h2>Categoria 2</h2>
-                    </a>
-                </div>
-            </div>
-            <div class="cat__portafolio" id="cat__portafolio3">
-                <div class="overlay">
-                    <a href="#">
-                        <h2>Categoria 3</h2>
-                    </a>
-                </div>
-            </div>
-        </section>
     </main>
     <!-- footer -->
     <div class="footer-mod container-fluid px-0">
-        <footer class="footer d-flex flex-column justify-content-center align-items-center ">
-          <div class="footer__texto pt-2">
-              <a class="marca text-center" href="#">N<span class="nav1">1</span>xWare</a>
-          </div>
-          <div class="footer__rrss py-0">
-              <i class="fa-brands fa-instagram"></i>
-              <i class="fa-brands px-3 fa-whatsapp"></i>
-              <i class="fa-brands fa-pinterest"></i>
-          </div>
-          <p class="py-3 mb-0">Todos los derechos reservados. 2022</p>
-        </footer>
-      </div>
+      <footer class="footer d-flex flex-column justify-content-center align-items-center ">
+        <div class="footer__texto pt-2">
+            <a class="marca text-center" href="#">N<span class="nav1">1</span>xWare</a>
+        </div>
+        <div class="footer__rrss py-0">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands px-3 fa-whatsapp"></i>
+            <i class="fa-brands fa-pinterest"></i>
+        </div>
+        <p class="py-3 mb-0">Todos los derechos reservados. 2022</p>
+      </footer>
+    </div>
                     <!-- script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
