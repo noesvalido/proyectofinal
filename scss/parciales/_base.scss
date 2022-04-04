@@ -1,6 +1,7 @@
 body {
     max-width: 100vw;
-    background-color: rgb(135, 67, 86);
+    background: rgb(33,25,59);
+    background: linear-gradient(90deg, rgba(33,25,59,1) 0%, rgba(50,39,83,1) 5%, rgba(50,39,83,1) 50%, rgba(50,39,83,1) 95%, rgba(33,25,59,1) 100%);
     font-family: 'Montserrat', sans-serif;
 }
 .main {

@@ -1,10 +1,13 @@
 /* index */
-.container__slider{
-    max-height: 90vh;
+.background__color{
+    max-height: 92vh;
+    background-color: black;
+    border: 1px solid $colorDetalle;
+    & img {
+        max-height: 90vh;
+    }
 }
-.img-mod{
-    max-height: 100vh;
-}
+
 .card {
     border: 1px solid $colorUno;
     border-bottom-left-radius: 0;
@@ -23,8 +26,11 @@
         border-radius: 0;
         border: none;
     }
-    & p {
-        opacity: 0;
+    .vermas {
+        border-top: 1px solid $colorDetalle;
+    }
+    .img__tarjeta {
+        max-height: 35rem;
     }
 }
 /* portafolio main */
@@ -47,7 +53,7 @@
     border-width: 1px;
     height: 40vh;
     width: 90vw;
-    background-image: url(https://via.placeholder.com/300x320);
+    background-image: url(../../img/mantencionescat.jpg);
     background-size: cover;
 }
 
@@ -94,8 +100,8 @@
     color: $colorDos;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
-    border-top: 1rem solid $colorUno;
-    border-bottom: 1rem solid $colorUno;
+    border-top: 1rem solid $colorDetalle;
+    border-bottom: 1rem solid $colorDetalle;
     margin-top: 2rem;
     display: block;
     margin-bottom: 2rem;
@@ -137,5 +143,20 @@
     height: 400px;
     .card-img-overlay {
         height: 18rem;
+    }
+}
+/* servicios */
+.img__sobremi {
+    border: 1px solid $colorDetalle;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+/* Contacto */
+.btn-primary {
+    background-color: $colorDetalle;
+    border-color: $colorDos;
+    color: $colorDos;
+    .btn-primary :hover {
+        background-color: $colorDetalle;
     }
 }
