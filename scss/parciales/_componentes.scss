@@ -62,13 +62,13 @@
 }
 
 #cat__portafolio2 {
-    background-image: url(https://via.placeholder.com/300x320);
+    background-image: url(../../img/armadoshor2.jpg);
     background-size: cover;
     border-top: none;
 }
 
 #cat__portafolio3 {
-    background-image: url(https://via.placeholder.com/300x320);
+    background-image: url(../../img/webcat.jpeg);
     background-size: cover;
     border-top: none;
 }
@@ -136,10 +136,28 @@
     border-radius: 1rem;
     margin-bottom: 2rem;
 }
-.card-img {
-    background-image: url(https://via.placeholder.com/1000x500);
+.card-img--man {
+    background-image: url(../../img/mantencionescat.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover ;
+    height: 400px;
+    .card-img-overlay {
+        height: 18rem;
+    }
+}
+.card-img--arm {
+    background-image: url(../../img/armadoshor2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 400px;
+    .card-img-overlay {
+        height: 18rem;
+    }
+}
+.card-img--web {
+    background-image: url(../../img/webcat.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover ;
     height: 400px;
     .card-img-overlay {
         height: 18rem;
