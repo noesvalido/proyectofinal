@@ -30,7 +30,7 @@
         border-top: 1px solid $colorDetalle;
     }
     .img__tarjeta {
-        max-height: 35rem;
+        height:30rem;
     }
 }
 /* portafolio main */
@@ -53,7 +53,7 @@
     border-width: 1px;
     height: 40vh;
     width: 90vw;
-    background-image: url(../../img/mantencionescat.jpg);
+    background-image: url(../img/mantencionescat.jpg);
     background-size: cover;
 }
 
@@ -62,13 +62,13 @@
 }
 
 #cat__portafolio2 {
-    background-image: url(../../img/armadoshor2.jpg);
+    background-image: url(../img/armadoshor2.jpg);
     background-size: cover;
     border-top: none;
 }
 
 #cat__portafolio3 {
-    background-image: url(../../img/webcat.jpeg);
+    background-image: url(../img/webcat.jpeg);
     background-size: cover;
     border-top: none;
 }
@@ -137,7 +137,7 @@
     margin-bottom: 2rem;
 }
 .card-img--man {
-    background-image: url(../../img/mantencionescat.jpg);
+    background-image: url(../img/mantencionescat.jpg);
     background-repeat: no-repeat;
     background-size: cover ;
     height: 400px;
@@ -146,7 +146,7 @@
     }
 }
 .card-img--arm {
-    background-image: url(../../img/armadoshor2.jpg);
+    background-image: url(../img/armadoshor2.jpg);
     background-repeat: no-repeat;
     background-size: cover ;
     height: 400px;
@@ -155,7 +155,7 @@
     }
 }
 .card-img--web {
-    background-image: url(../../img/webcat.jpeg);
+    background-image: url(../img/webcat.jpeg);
     background-repeat: no-repeat;
     background-size: cover ;
     height: 400px;
