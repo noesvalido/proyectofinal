@@ -75,24 +75,23 @@
 
 .overlay {
     @include size100 (100%, 100%);
-    transition: 2s ease;
+    transition: 1.2s ease;
     
 }
 
 .overlay a {
     @include size100 (100%, 100%);
-    transition: 1.5s ease;
+    transition: 1s ease;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .overlay:hover {
-    background-color: rgba(255, 255, 255, 0.774);
-    color: black;
+    background-color: $colorDosDif;
 }
 .overlay:hover a{
-    color: black;
+    color: rgb(112, 49, 98);
 }
 
 /* portafolio categorias */
@@ -110,6 +109,8 @@
 .nav-color {
     color: $colorDos;
     margin-bottom: 2rem;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
     &:hover {
         color: $colorDetalle;
         border-bottom: 1px solid rgba(239, 227, 208, 0.192);
@@ -117,6 +118,8 @@
         border-right: 1px solid rgba(239, 227, 208, 0.192);
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
+        transition: 0.5s ease;
+        font-weight: bolder;
     }
 }
 .galeria {
@@ -129,46 +132,31 @@
         border-radius: 0.5rem;
         width: 100%;
     }
-}
-/* servicios */
-.servicios {
-    background-color: $colorUno;
-    padding-top: 1.5rem;
-    border-radius: 1rem;
-    margin-bottom: 2rem;
-}
-.card-img--man {
-    background-image: url(../img/mantencionescat.jpg);
-    background-repeat: no-repeat;
-    background-size: cover ;
-    height: 400px;
-    .card-img-overlay {
-        height: 18rem;
+    & nav-link:hover {
+        color: $colorDos;
+        font-weight: bolder;
+        transition: 0.4s ease;
+    }
+    & .link__desc {
+        color: $colorDetalle;
+    }
+    .link__desc:hover{
+        color: $colorDos;
+        transition: 0.5s ease;
+        font-weight: bold;
     }
 }
-.card-img--arm {
-    background-image: url(../img/armadoshor2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover ;
-    height: 400px;
-    .card-img-overlay {
-        height: 18rem;
-    }
-}
-.card-img--web {
-    background-image: url(../img/webcat.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover ;
-    height: 400px;
-    .card-img-overlay {
-        height: 18rem;
-    }
-}
-/* servicios */
+/* sobre mi */
 .img__sobremi {
-    border: 1px solid $colorDetalle;
-    border-top-right-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+}
+/* servicios */
+#contenedor__servicios {
+    margin-top: 0px;
+}
+.overlay--servicios {
+    flex-direction: column;
 }
 /* Contacto */
 .btn-primary {

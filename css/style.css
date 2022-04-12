@@ -96,22 +96,21 @@ a {
 .overlay {
   width: 100%;
   height: 100%;
-  transition: 2s ease; }
+  transition: 1.2s ease; }
 
 .overlay a {
   width: 100%;
   height: 100%;
-  transition: 1.5s ease;
+  transition: 1s ease;
   display: flex;
   align-items: center;
   justify-content: center; }
 
 .overlay:hover {
-  background-color: rgba(255, 255, 255, 0.774);
-  color: black; }
+  background-color: rgba(239, 227, 208, 0.753); }
 
 .overlay:hover a {
-  color: black; }
+  color: #703162; }
 
 /* portafolio categorias */
 .titulo__principal {
@@ -127,14 +126,18 @@ a {
 
 .nav-color {
   color: #efe3d0;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px; }
   .nav-color:hover {
     color: #986d8e;
     border-bottom: 1px solid rgba(239, 227, 208, 0.192);
     border-left: 1px solid rgba(239, 227, 208, 0.192);
     border-right: 1px solid rgba(239, 227, 208, 0.192);
     border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px; }
+    border-bottom-right-radius: 8px;
+    transition: 0.5s ease;
+    font-weight: bolder; }
 
 .galeria {
   background-color: #87a8a4;
@@ -145,43 +148,28 @@ a {
     border: 0.5px solid #986d8e;
     border-radius: 0.5rem;
     width: 100%; }
+  .galeria nav-link:hover {
+    color: #efe3d0;
+    font-weight: bolder;
+    transition: 0.4s ease; }
+  .galeria .link__desc {
+    color: #986d8e; }
+  .galeria .link__desc:hover {
+    color: #efe3d0;
+    transition: 0.5s ease;
+    font-weight: bold; }
 
-/* servicios */
-.servicios {
-  background-color: #87a8a4;
-  padding-top: 1.5rem;
-  border-radius: 1rem;
-  margin-bottom: 2rem; }
-
-.card-img--man {
-  background-image: url(../img/mantencionescat.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 400px; }
-  .card-img--man .card-img-overlay {
-    height: 18rem; }
-
-.card-img--arm {
-  background-image: url(../img/armadoshor2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 400px; }
-  .card-img--arm .card-img-overlay {
-    height: 18rem; }
-
-.card-img--web {
-  background-image: url(../img/webcat.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 400px; }
-  .card-img--web .card-img-overlay {
-    height: 18rem; }
-
-/* servicios */
+/* sobre mi */
 .img__sobremi {
-  border: 1px solid #986d8e;
-  border-top-right-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem; }
+  border-top-right-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem; }
+
+/* servicios */
+#contenedor__servicios {
+  margin-top: 0px; }
+
+.overlay--servicios {
+  flex-direction: column; }
 
 /* Contacto */
 .btn-primary {
