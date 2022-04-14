@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+    .cat__portafolio a {
+        background-color: $colorDosDif;
+        color: rgb(95, 55, 84);
+        font-size: 1.1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .caja {
+        flex-direction: column-reverse;
+    }
+    .texto__sobremi {
+        width: 100%;
+        text-align: center;
+    }
+    .img__sobremi {
+        border-radius: 50%;
+        margin-bottom: 2rem;
+        margin-top: 1.5rem;
+    }
+}

@@ -199,3 +199,20 @@ a {
   .footer .marca {
     font-size: 3rem;
     color: black; }
+
+@media screen and (max-width: 768px) {
+  .cat__portafolio a {
+    background-color: rgba(239, 227, 208, 0.753);
+    color: #5f3754;
+    font-size: 1.1rem;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+  .caja {
+    flex-direction: column-reverse; }
+  .texto__sobremi {
+    width: 100%;
+    text-align: center; }
+  .img__sobremi {
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem; } }
